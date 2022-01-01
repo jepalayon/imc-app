@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+    <TextView
+        android:id="@+id/titleTXT"
+        style="@style/title_purple"
+        android:textSize="48sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMC"/>
+
+    <EditText
+        android:id="@+id/pesoEDT"
+        android:hint="Peso (ex: 71.4kgh)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/input_style" />
+    <EditText
+        android:id="@+id/alturaEDT"
+        style="@style/input_style"
+        android:hint="Altura (ex: 1.78m)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/calcularBTN"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Calcular"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="46dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

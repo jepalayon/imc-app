@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:text="@string/hi_helloword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/title_purple" />
+    <TextView
+        style="@style/title_purple"
+        android:layout_margin="24dp"
+        android:padding="16dp"
+        android:text="@string/hi_olamundo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        style="@style/title_purple"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:text="@string/hi_radiobutton"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        style="@style/title_purple"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:text="@string/hi_checkbox"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
